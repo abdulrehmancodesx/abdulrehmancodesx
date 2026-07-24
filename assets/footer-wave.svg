@@ -1,23 +1,62 @@
 <svg width="1400" height="140" viewBox="0 0 1400 140" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="wave" x1="0" y1="0" x2="1400" y2="0">
-      <stop offset="0%" stop-color="#000c0c"/>
-      <stop offset="50%" stop-color="#00d8d8"/>
-      <stop offset="100%" stop-color="#000c0c"/>
-      <animate attributeName="x1" values="-1400;0;1400" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="0;1400;2800" dur="7s" repeatCount="indefinite"/>
+    <!-- Fonts Import -->
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600;800;900&amp;display=swap');
+      
+      .font-cta {
+        font-family: 'Outfit', 'Segoe UI', system-ui, sans-serif;
+      }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="1400" y2="0">
+      <stop offset="0%" stop-color="#010c14"/>
+      <stop offset="50%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#010c14"/>
+      <animate attributeName="x1" values="-1400;0;1400" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1400;2800" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
+
+    <linearGradient id="waveGradBack" x1="0" y1="0" x2="1400" y2="0">
+      <stop offset="0%" stop-color="#01080d"/>
+      <stop offset="50%" stop-color="#4FACFE"/>
+      <stop offset="100%" stop-color="#01080d"/>
+      <animate attributeName="x1" values="1400;0;-1400" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="2800;1400;0" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Filters -->
     <filter id="glow">
-      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
-  <path d="M0 82 C180 20 310 20 470 80 C620 135 770 135 930 75 C1090 15 1220 20 1400 82" stroke="url(#wave)" stroke-width="4" filter="url(#glow)" fill="none">
-    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+
+  <!-- Wave 1: Back Wave (Cyan-Blue, thick, low opacity, slow moving) -->
+  <path d="M0 72 C180 130 310 130 470 70 C620 10 770 10 930 75 C1090 140 1220 130 1400 72" stroke="url(#waveGradBack)" stroke-width="2" stroke-opacity="0.35" fill="none">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0 72 C180 130 310 130 470 70 C620 10 770 10 930 75 C1090 140 1220 130 1400 72;M0 82 C180 20 310 20 470 80 C620 135 770 135 930 75 C1090 15 1220 20 1400 82;M0 72 C180 130 310 130 470 70 C620 10 770 10 930 75 C1090 140 1220 130 1400 72"/>
+  </path>
+
+  <!-- Wave 2: Middle Wave (Blue, thin, medium opacity, offset movement) -->
+  <path d="M0 80 C200 40 330 40 490 85 C640 130 790 130 950 80 C1110 30 1240 40 1400 80" stroke="url(#waveGradBack)" stroke-width="1.5" stroke-opacity="0.5" fill="none">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="M0 80 C200 40 330 40 490 85 C640 130 790 130 950 80 C1110 30 1240 40 1400 80;M0 70 C200 120 330 120 490 75 C640 30 790 30 950 85 C1110 140 1240 120 1400 70;M0 80 C200 40 330 40 490 85 C640 130 790 130 950 80 C1110 30 1240 40 1400 80"/>
+  </path>
+
+  <!-- Wave 3: Front Wave (Electric Cyan Glow Wave, thick, full opacity) -->
+  <path d="M0 82 C180 20 310 20 470 80 C620 135 770 135 930 75 C1090 15 1220 20 1400 82" stroke="url(#waveGrad)" stroke-width="3" filter="url(#glow)" fill="none">
+    <animate attributeName="d" dur="5.5s" repeatCount="indefinite"
       values="M0 82 C180 20 310 20 470 80 C620 135 770 135 930 75 C1090 15 1220 20 1400 82;M0 72 C180 130 310 130 470 70 C620 10 770 10 930 75 C1090 140 1220 130 1400 72;M0 82 C180 20 310 20 470 80 C620 135 770 135 930 75 C1090 15 1220 20 1400 82"/>
   </path>
-  <text x="700" y="100" text-anchor="middle" fill="#EFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" letter-spacing="4">
+
+  <!-- CTA Text Overlay -->
+  <text x="700" y="102" text-anchor="middle" fill="#EFFFFF" class="font-cta" font-size="20" font-weight="900" letter-spacing="6">
     LET'S BUILD INCREDIBLE PRODUCTS
-    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.8s" repeatCount="indefinite"/>
   </text>
 </svg>

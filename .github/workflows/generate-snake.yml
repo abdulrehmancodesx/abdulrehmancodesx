@@ -29,6 +29,9 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          # a github token is required to fetch the contribution calendar from github API
+          GITHUB_TOKEN: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
           
       # Push the generated SVGs to the output branch
       - name: Push github-contribution-grid-snake.svg to the output branch

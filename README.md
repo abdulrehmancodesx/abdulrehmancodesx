@@ -161,12 +161,12 @@ I customize e-commerce storefronts, design landing pages, integrate secure check
 ## 📊 GitHub Performance
 
 <p align="center">
-  <img height="180" src="https://github-stats-extended-frontend-cjym3052o.vercel.app/api?username=abdulrehmancodesx&show_icons=true&theme=github_dark&hide_border=true&title_color=00d8d8&icon_color=00d8d8&text_color=c9d1d9&bg_color=0D1117&rank_icon=github&count_private=true" />
+  <img height="180" src="https://github-stats-extended-frontend-lovat-omega.vercel.app/api?username=abdulrehmancodesx&show_icons=true&theme=github_dark&hide_border=true&title_color=00d8d8&icon_color=00d8d8&text_color=c9d1d9&bg_color=0D1117&rank_icon=github&count_private=true" />
   <img height="180" src="https://streak-stats.demolab.com?user=abdulrehmancodesx&theme=github-dark-blue&hide_border=true&ring=00d8d8&fire=00d8d8&currStreakLabel=00d8d8&sideLabels=c9d1d9&currStreakNum=00d8d8" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-stats-extended-frontend-cjym3052o.vercel.app/api/top-langs/?username=abdulrehmancodesx&layout=compact&theme=github_dark&hide_border=true&title_color=00d8d8&text_color=c9d1d9&bg_color=0D1117&count_private=true" />
+  <img height="180" src="https://github-stats-extended-frontend-lovat-omega.vercel.app/api/top-langs/?username=abdulrehmancodesx&layout=compact&theme=github_dark&hide_border=true&title_color=00d8d8&text_color=c9d1d9&bg_color=0D1117&count_private=true" />
 </p>
 
 ## 📈 Contribution Activity

@@ -1,0 +1,23 @@
+<svg width="1400" height="140" viewBox="0 0 1400 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1400" y2="0">
+      <stop offset="0%" stop-color="#000c0c"/>
+      <stop offset="50%" stop-color="#00d8d8"/>
+      <stop offset="100%" stop-color="#000c0c"/>
+      <animate attributeName="x1" values="-1400;0;1400" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1400;2800" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <path d="M0 82 C180 20 310 20 470 80 C620 135 770 135 930 75 C1090 15 1220 20 1400 82" stroke="url(#wave)" stroke-width="4" filter="url(#glow)" fill="none">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="M0 82 C180 20 310 20 470 80 C620 135 770 135 930 75 C1090 15 1220 20 1400 82;M0 72 C180 130 310 130 470 70 C620 10 770 10 930 75 C1090 140 1220 130 1400 72;M0 82 C180 20 310 20 470 80 C620 135 770 135 930 75 C1090 15 1220 20 1400 82"/>
+  </path>
+  <text x="700" y="100" text-anchor="middle" fill="#EFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" letter-spacing="4">
+    LET'S BUILD INCREDIBLE PRODUCTS
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+  </text>
+</svg>

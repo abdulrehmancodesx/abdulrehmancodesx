@@ -13,20 +13,26 @@
 </p>
 
 <p align="center">
-  Welcome to the official GitHub profile of <b>abdulrehmancodes</b>. I build high-performance web applications, automated business workflows, responsive cross-platform mobile apps, client dashboards, and custom eCommerce solutions that streamline operations and drive digital growth.
+  Welcome to the official GitHub profile of <b>Abdul Rehman</b> (known online as <b>abdulrehmancodes</b> and <b>abdulrehmancodesx</b>). I build high-performance web applications, automated business workflows, responsive cross-platform mobile apps, client dashboards, and custom eCommerce solutions that streamline operations and drive digital growth.
 </p>
 
 <p align="center">
-  <a href="https://abdulrehmancodes.site">
-    <img src="https://img.shields.io/badge/Portfolio-00d8d8?style=for-the-badge&logo=vercel&logoColor=050505" />
+  <a href="https://abdulrehmancodes.site" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-00d8d8?style=for-the-badge&logo=vercel&logoColor=050505" alt="Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/abdulrehmancodesx/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/abdulrehmancodesx" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.instagram.com/abdulrehmancodes/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   <a href="mailto:abdulrehmancodes06@gmail.com">
-    <img src="https://img.shields.io/badge/Email-00d8d8?style=for-the-badge&logo=gmail&logoColor=050505" />
+    <img src="https://img.shields.io/badge/Email-00d8d8?style=for-the-badge&logo=gmail&logoColor=050505" alt="Email" />
   </a>
-  <a href="https://github.com/abdulrehmancodesx">
-    <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=abdulrehmancodesx&label=Profile%20Views&color=00d8d8&style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=abdulrehmancodesx&label=Profile%20Views&color=00d8d8&style=for-the-badge" alt="Profile Views" />
 </p>
 
 <p align="center">
@@ -189,14 +195,20 @@ developing cross-platform React Native apps, and automating server-side backgrou
 ```
 
 <p align="center">
-  <a href="https://abdulrehmancodes.site">
-    <img src="https://img.shields.io/badge/View%20Portfolio-00d8d8?style=for-the-badge&logo=vercel&logoColor=050505" />
+  <a href="https://abdulrehmancodes.site" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Portfolio-00d8d8?style=for-the-badge&logo=vercel&logoColor=050505" alt="Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/abdulrehmancodesx/" target="_blank">
+    <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/abdulrehmancodes/" target="_blank">
+    <img src="https://img.shields.io/badge/Follow%20on%20Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://wa.me/923225547677" target="_blank">
+    <img src="https://img.shields.io/badge/Chat%20on%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   </a>
   <a href="mailto:abdulrehmancodes06@gmail.com">
-    <img src="https://img.shields.io/badge/Send%20an%20Email-00d8d8?style=for-the-badge&logo=gmail&logoColor=050505" />
-  </a>
-  <a href="https://wa.me/923225547677">
-    <img src="https://img.shields.io/badge/Chat%20on%20WhatsApp-00d8d8?style=for-the-badge&logo=whatsapp&logoColor=050505" />
+    <img src="https://img.shields.io/badge/Send%20an%20Email-00d8d8?style=for-the-badge&logo=gmail&logoColor=050505" alt="Email" />
   </a>
 </p>
 
